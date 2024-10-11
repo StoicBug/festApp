@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,*:before, *:after {box-sizing:border-box;}
+html {
+  --color-yellow: #ddb724;
+  --color-orange: #d19245;
+  --color-off-black: #352d2a;
+  --color-grey: #6c6c6c;
+  --color-white: #e3dfc6;
+  --color-bone: #e7e4d5;
+  --color-main: #8cd1b3;
+  --color-main-lighten: #afdbbf;
+  --color-main-lighten2: #b2efcd;
+  --color-main-dark: #84a782;
+  
+  --color-backing-top: #4e79ad;
+  --color-backing-light1: #b6cff3;
+  --color-backing-light2: #c8dcf1;
+  --color-backing-light3: #88b4ed;
+  --color-backing-light4: #2f5c8c;
+  
+  --main-bg-color: #8cd1b3; 
+}

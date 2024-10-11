@@ -25,6 +25,7 @@
 
 .card h1, .level {
     font-family: 'Staatliches', sans-serif;
+    text-align: center;
   }
   
   p, .card span, .special{
